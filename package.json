@@ -1,0 +1,37 @@
+{
+  "name": "cerebro-phpstorm",
+  "version": "0.1.0",
+  "description": "Cerebro plugin to launch PhpStorm projects",
+  "author": {
+    "name": "Alvaro Tinoco",
+    "email": "atinoco@protonmail.com"
+  },
+  "license": "MIT",
+  "repository": {
+    "url": "MrMarble/cerebro-phpstorm"
+  },
+  "dependencies": {
+    "cerebro-tools": "^0.1.8",
+    "cerebro-ui": "^0.0.16"
+  },
+  "devDependencies": {
+    "cerebro-scripts": "0.0.25"
+  },
+  "main": "dist/index.js",
+  "keywords": [
+    "cerebro",
+    "cerebro-plugin",
+    "phpstorm",
+    "php",
+    "launch",
+    "search",
+    "jetbrains"
+  ],
+  "scripts": {
+    "start": "cerebro-scripts start",
+    "build": "cerebro-scripts build",
+    "test": "cerebro-scripts test",
+    "clear": "cerebro-scripts clear",
+    "prepublish": "yarn clear && yarn build"
+  }
+}
