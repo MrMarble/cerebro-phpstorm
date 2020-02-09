@@ -1,5 +1,7 @@
 # cerebro-phpstorm
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/MrMarble/cerebro-phpstorm.svg)](https://greenkeeper.io/)
+
 > [Cerebro](http://www.cerebroapp.com) plugin to launch PhpStorm Projects
 
 ![](screenshot.png)
